@@ -1,0 +1,57 @@
+# Verkefni 2
+
+1. Hvað er ECMAScript?
+    > .
+2. Hvað þýðir að JavaScript sé loosely typed tungumál?
+    > .
+3. Er einhver munur á einföldum og tvöföldum gæsalöppum í JavaScript?
+    > .
+4. Hvað er null og undefined?
+    > .
+5. Hver er munurinn á == og === í JavaScript?
+    > .
+6. Hver er munurinn á let og var? komdu með kóðadæmi sem sýnir muninn.
+    > .
+7. Skilgreindu fall á þrjá mismunandi vegu með kóðadæmi; function declarations, function expressions og arrow functions.
+    > .
+8. Hvað gerir 'use strict'; í EcmaScript? (þarf að googla svar)
+    > .
+9. Hér er dæmi um “function declaration” og kall á fallið. Afhverju virkar eftirfarandi kóði í JavaScript, útskýrðu? 
+    ```javascript
+    x(); 
+    function x() { 
+    console.log('x'); 
+    } 
+    ```
+    > .
+10. Í hvaða röð er kóðinn keyrður í raun eftir að þýðandinn (e. interpreter) er búinn að fá hann til sín? Hvað birtir alert(), afhverju? 
+    ```javascript
+    function foo(){ 
+        function bar() { 
+            return 3; 
+        } 
+        return bar();
+        function bar() { 
+            return 8; 
+        } 
+    } 
+    alert(foo()); 
+    ```
+    > .
+11. Hvað gerist þegar ég gleymi að skilgreina breytu með _var_ eða _let_? Útskýrðu hvað gerist 
+    ```javascript
+    age = '30';
+    console.log(age); 
+    ```
+    > .
+12. Útskýrðu hvað eftirfarandi kóði gerir, hvað gera svigarnir? 
+    ```javascript
+    (function() { 
+        alert('Hello World'); 
+    })(); 
+    ```
+    > .
+13. Útskýrðu variable scope.
+    > .
+14. Hvað er call stack? 
+    > .
