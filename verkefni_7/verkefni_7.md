@@ -1,9 +1,16 @@
 # Verkefni 7
 
 1. Hvað er callback? Útskýrðu með eigin orðum, komdu með kóðadæmi.
-    > .
+    > Callback fall er fall sem er keyrt um leið og annað fall hefur verið keyrt. Fall er kallað callback fall ef það er sett í annað fall sem argument.
+    ```javascript
+    $("button").click(function(){
+        $("p").hide("slow", function(){
+            alert("The paragraph is now hidden");
+        });
+    });
+    ```
 2. Hvað er Eventloop? Útskýrðu með eigin orðum.
-    > .
+    > 
 3. Leiðréttu eftirfarandi kóða þannig að hann virki (ekki syntax villa).
     ```javascript
     function checkUsername() {
