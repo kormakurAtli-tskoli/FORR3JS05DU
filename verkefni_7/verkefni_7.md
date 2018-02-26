@@ -14,7 +14,7 @@
 3. Leiðréttu eftirfarandi kóða þannig að hann virki (ekki syntax villa).
     ```javascript
     function checkUsername() {
-    var target = e.target;
+        var target = e.target;
     }
     var el = document.getElementById('username');
     el.addEventListener('blur', checkUsername, false);
