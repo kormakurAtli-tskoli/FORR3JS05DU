@@ -10,7 +10,7 @@
     });
     ```
 2. Hvað er Eventloop? Útskýrðu með eigin orðum.
-    > 
+    > EventLoopið er það sem gerir JavaScript kleift að nota hluti eins og callbacks.
 3. Leiðréttu eftirfarandi kóða þannig að hann virki (ekki syntax villa).
     ```javascript
     function checkUsername() {
@@ -19,7 +19,7 @@
     var el = document.getElementById('username');
     el.addEventListener('blur', checkUsername, false);
     ```
-    > .
+    > Dæmi:
 4. Event flow, Hvað þýðir false í Event Listener?
     ```javascript
     elUsername.addEventListener('blur' , function() {
