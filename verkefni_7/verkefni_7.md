@@ -26,7 +26,8 @@
     checkUsername(5);
     }, false)
     ```
-    > .
+    > False í Event Listener þýðir að það er farið í gegnum þetta í öfugri röð þetta væri true þá myndi þetta vera 1,2,3 en núna þegar þetta er false
+þá er þetta 3,2,1 eða bubbling eins og það er kallað
 5. Hvað gera eftirfarandi aðgerðir?  
   a. stopPropagation()  
   b. preventDefault()
