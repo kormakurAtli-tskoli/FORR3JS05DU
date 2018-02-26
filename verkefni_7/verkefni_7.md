@@ -30,7 +30,7 @@
 5. Hvað gera eftirfarandi aðgerðir?  
   a. stopPropagation()  
   b. preventDefault()
-    > a. stopPropagation() kemur í veg fyrir að click event hoppi upp í parent element.
+    > a. stopPropagation() kemur í veg fyrir að click event hoppi upp í parent element.  
     > b. preventDefault() kemur í veg fyrir að hlekkur opni slóð.
 6. Quiz  
   a. Þegar notandi hefur smellt á einhvern svarmöguleika þá á viðkomandi svarmöguleiki
